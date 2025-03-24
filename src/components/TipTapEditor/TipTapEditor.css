@@ -1,0 +1,75 @@
+.toolbar-container {
+  background-color: #f4f5f6;
+  padding: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.toolbar-btn {
+  background-color: #f4f5f6;
+  border: none;
+  border-radius: 4px;
+  color: #495057;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+  width: 24px;
+  height: 24px;
+}
+
+.toolbar-btn:hover {
+  background-color: #e3e3e3;
+}
+
+.is-active {
+  background-color: #c4e4f6;
+}
+
+.vertical-divider {
+  border-left: 1px solid #e9ecef;
+  height: 24px;
+  margin: 0 4px;
+}
+
+.horizontal-divider {
+  border-top: 1px solid #e9ecef;
+  margin: 10px 0;
+  width: 100%;
+}
+
+iframe {
+  margin: 0 auto;
+  display: block;
+}
+
+div[data-youtube-video] > iframe {
+  cursor: move;
+}
+
+.ProseMirror-selectednode iframe {
+  transition: outline 0.15s;
+}
+
+.ProseMirror > * + * {
+  margin-top: 0 !important;
+}
+
+.ProseMirror ol {
+  padding: 0 1rem;
+  list-style: decimal !important;
+}
+
+.ProseMirror ul {
+  padding: 0 1rem;
+  list-style: disc !important;
+}
+
+p {
+  margin: 0 !important;
+}
